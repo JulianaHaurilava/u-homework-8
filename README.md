@@ -31,8 +31,10 @@
 
 Повернуть бегуна в сторону следующего можно методом:
 
+```
 transform.LookAt(targetTransform);
 targetTransform — компонент transform объекта, к которому нужно развернуться.
+```
 
 ## Задание 3. Визуализация бегунов (по желанию)
 ### Что нужно сделать
@@ -43,7 +45,9 @@ targetTransform — компонент transform объекта, к которо
 
 Назначить родительский объект можно методом
 
+```
 childTransform.SetParent(parentTransform);
+```
 childTransform — компонент transform дочернего объекта,
 
 parentTransform — компонент transform родительского объекта.
